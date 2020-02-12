@@ -11,4 +11,9 @@ public class FizzBuzz {
 
         return String.valueOf(number);
     }
+
+    public static void main (String args[]){
+        FizzBuzz f= new FizzBuzz();
+        System.out.println(f.play(4));
+    }
 }
